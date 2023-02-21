@@ -21,7 +21,7 @@ A configuração do ambiente para desenvolvimento em PHP pode ser efetuada de ac
 Depois de instaladas as ferramentas, basta clonar o repositório com o comando:
 
 ```bash
-git clone https://github.com/ArianeValasques/Backend-Challenge-Space-Flight-News-20210823.git
+git clone https://github.com/ArianeValasques/api_project.git
 ```
 
 Geralmente os projetos não contém o arquivo .env, porém a configuração de um banco de dados externo faz parte das exigências para a construção da API, então o arquivo foi adicionado temporariamente para demonstração.
