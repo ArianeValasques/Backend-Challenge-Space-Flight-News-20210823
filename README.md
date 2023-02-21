@@ -88,4 +88,8 @@ Vale lembrar que a configuração deve ser feita também no servidor, através d
 Ressalte-se que o serviço deve estar ativo (comando 'service cron start' para incializar)
 
 Dos requisitos diferenciais foi feito o Diferencial 1 - Configurar Docker no Projeto para facilitar o Deploy da equipe de DevOps;
-O passo a passo da configuração segue no tópico 'Orientações de Instalação'
+O passo a passo da configuração segue no tópico 'Orientações de Instalação'.
+
+Vídeo de apresentação:
+Foi gravado um vídeo curto de apresentação do projeto, disponível para visualização no link:
+https://www.loom.com/share/2194a85b12fa449bbebcfff6f44a7f4b
