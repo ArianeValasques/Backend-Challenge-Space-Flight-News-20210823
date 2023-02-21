@@ -7,10 +7,14 @@ Introdução
 Foi desenvolvida uma Rest API que utiliza os dados do projeto Space Flight News, uma API pública com informações relacionadas a voos espaciais. O projeto desenvolvido tem como objetivo criar a API permitindo assim a conexão de outras aplicações.
 
 Tecnologias utilizadas:
-Linguagem PHP - framework Laravel
-Banco de Dados Postgres no Render Dashboard (https://dashboard.render.com/)
-Docker
-Postman
+
+-   Linguagem PHP - framework Laravel
+
+-   Banco de Dados Postgres no Render Dashboard (https://dashboard.render.com/)
+
+-   Docker
+
+-   Postman
 
 Observação: O Heroku não possui mais planos gratuitos, e por essa razão foi escolhido o Render Dashboard, que possui planos gratuitos para configuração do banco de dados postgres, e também por essa razão o postgres foi escolhido, e não o MySql.
 
