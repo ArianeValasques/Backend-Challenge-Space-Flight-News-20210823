@@ -16,7 +16,11 @@ Observação: O Heroku não possui mais planos gratuitos, e por essa razão foi 
 Orientações de Instalação:
 
 A configuração do ambiente para desenvolvimento em PHP pode ser efetuada de acordo com as orientações contidas na página https://github.com/ArianeValasques/docker.
-Depois de instaladas as ferramentas, basta clonar o repositório com o comando: git clone https://github.com/ArianeValasques/Backend-Challenge-Space-Flight-News-20210823.git
+Depois de instaladas as ferramentas, basta clonar o repositório com o comando:
+
+```bash
+git clone https://github.com/ArianeValasques/Backend-Challenge-Space-Flight-News-20210823.git
+```
 
 Geralmente os projetos não contém o arquivo .env, porém a configuração de um banco de dados externo faz parte das exigências para a construção da API, então o arquivo foi adicionado temporariamente para demonstração.
 
@@ -28,6 +32,7 @@ Instalação do projeto:
 ```
 
 Geração da chave e criação de tabelas e alimentação do Banco de Dados com os dados de todos os artigos na Space Flight News API foram adicionados aos scripts pós-instalação. Porém, seguem os comandos para, caso necessário, serem utilizados.
+
 Geração da chave
 
 ```bash
@@ -49,12 +54,12 @@ Para alimentar o
 Processo de Desenvolvimento:
 
 Obrigatório 1 - Desenvolver as seguintes rotas:
-[GET]/: Retornar um Status: 200 e uma Mensagem "Back-end Challenge 2021 🏅 - Space Flight News"
-[GET]/articles/: Listar todos os artigos da base de dados, utilizar o sistema de paginação para não sobrecarregar a REQUEST
-[GET]/articles/{id}: Obter a informação somente de um artigo
-[POST]/articles/: Adicionar um novo artigo
-[PUT]/articles/{id}: Atualizar um artigo baseado no id
-[DELETE]/articles/{id}: Remover um artigo baseado no id
+[GET]/: Retornar um Status: 200 e uma Mensagem "Back-end Challenge 2021 🏅 - Space Flight News".
+[GET]/articles/: Listar todos os artigos da base de dados, utilizar o sistema de paginação para não sobrecarregar a REQUEST.
+[GET]/articles/{id}: Obter a informação somente de um artigo.
+[POST]/articles/: Adicionar um novo artigo.
+[PUT]/articles/{id}: Atualizar um artigo baseado no id.
+[DELETE]/articles/{id}: Remover um artigo baseado no id.
 
 CONCLUÍDO - Criadas as rotas no arquivo routes/api.php, todas foram testadas no postman, respondendo como esperado.
 
